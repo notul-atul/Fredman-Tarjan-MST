@@ -68,7 +68,7 @@ Fredman&TarjanMST:
 	Constructor():
 		args: input graph file path, output file path
 		initializes graph by reading from file.
-			Creates empty MST.
+		Creates empty MST.
 	Class methods:
 		void runPrimsMST(int heapCapacity, LinkedList<Float>[] forrest, int treeCount):
 			1. starts from a node in forrest. Runs prims algo with it with limited heapSize.
