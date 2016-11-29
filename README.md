@@ -23,7 +23,7 @@ FibonacciHeap Data Structure:
 		int graphNode1; // one end of edge in original tree
     		int graphNode2;// another end of edge in original tree
 
-	    	int forrestNode1;// one end of edge in the forrest with tree as nodes. Trees are disjoint
+		int forrestNode1;// one end of edge in the forrest with tree as nodes. Trees are disjoint
 		int forrestNode2;// another end of edge in the forrest.
 
 		float value;// weight of edge
