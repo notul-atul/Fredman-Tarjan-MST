@@ -84,8 +84,7 @@ Fredman&TarjanMST:
 			disconnected components.
 		LinkedList<Float>[] calculateForrest(int[] labels, int treeCount):
 			Treats disconnected component as a single node and edge b/w nodes are the min weight edge that 					connects any of the node in that component to another one.
-			It checks all the edges on a connected component and keeps noting the min edges that connects them
-			to other components.
+			It checks all the edges on a connected component and keeps noting the min edges that connects them to other components.
 		runFredmanTarjanMSTAlgorithm():
 			1. intializes heapCapacity with 2^(m/n), labels with node numbers and forrest with intial graph
 			2. calls runPrimsMST(heapCapcity, forrest, nodes)
