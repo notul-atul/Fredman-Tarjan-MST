@@ -74,7 +74,7 @@ Fredman&TarjanMST:
 			1. starts from a node in forrest. Runs prims algo with it with limited heapSize.
 			2. choose another node in forrest with is not in any tree compute so far
 			3. Starts prims algo with it and stops either when heapSize exceeds capacity or process terminates
-			   as in prims case or when second edge is found whic connects it to some other tree computed in
+			   as in prims case or when second edge is found which connects it to some other tree computed in
 			   previous steps.
 			4. Repeat 2 and 3 unless 2 can't find any such node.
 			5. While running prims on forrest it keeps adding computed edge to MST
